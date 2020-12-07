@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listtypes SYSTEM "templateConfig.dtd">
+<listtypes>
+    <type objectType="wt.doc.WTDocument">
+        <signtemplate>PDF-001</signtemplate>
+        <param source="REP" replace="flase" />
+    </type>
+    <type objectType="wt.doc.WTDocument|com.corilead.SJWD">
+        <attribute name="IBA|MIJI">秘密</attribute>
+        <signtemplate>EXAMPLE-TEMPLATE</signtemplate>
+        <param source="PRI" replace="true" />
+    </type>
+</listtypes>

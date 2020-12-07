@@ -369,7 +369,7 @@ IN TRAINING.shortDescription=正在培训状态
 IN REVIEW.value=正在审阅
 IN REVIEW.shortDescription=正在审阅状态
 
-RECORD.value=记录
+RECORD.value=记录F
 RECORD.shortDescription=记录状态
 
 SUBMITTED.value=已提交
@@ -393,6 +393,21 @@ HHFF6.shortDescription=打印发布状态
 HHFF7.value=会签
 HHFF7.shortDescription=会签状态
 
+HHFF8.value=校对
+HHFF8.shortDescription=校对状态 state
+
+HHFF9.value=复审
+HHFF9.shortDescription=复审状态 state
+
+HHFF10.value=重新工作
+HHFF10.shortDescription=重新工作状态 state
+
+HHFF11.value=审签中
+HHFF11.shortDescription=审签中状态 state
+
+HHFF12.value=审阅中
+HHFF12.shortDescription=审阅中状态 state
+
 SUBNITFORREVIEW.value=提交审核
 SUBNITFORREVIEW.shortDescription=提交审核状态
 
@@ -401,3 +416,30 @@ UNDERREVIEW.shortDescription=正在审核状态
 
 RESUBMIT.value=重新提交
 RESUBMIT.shortDescription=重新提交状态
+
+SUBNITFORREVIEW.value=提交审核
+SUBNITFORREVIEW.shortDescription=提交审核状态
+
+UNDERREVIEW.value=正在审核
+UNDERREVIEW.shortDescription=正在审核状态
+
+RESUBMIT.value=重新提交
+RESUBMIT.shortDescription=重新提交状态
+
+DEFROST.value=解冻/正常工作
+DEFROST.shortDescription=解冻/正常工作状态
+
+FREEZE.value=冻结
+FREEZE.shortDescription=冻结状态
+
+FREEZED.value=已冻结
+FREEZED.shortDescription=已冻结状态
+
+XIUGAI.value=修改
+XIUGAI.shortDescription=修改状态
+
+XIUGAIING.value=修改中
+XIUGAIING.shortDescription=修改中状态
+
+BIANXIE.value=编写
+BIANXIE.shortDescription=编写状态

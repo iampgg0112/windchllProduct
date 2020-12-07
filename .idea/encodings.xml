@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/actions_actionmodels/java/SetUpReview.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/actions_actionmodels/java/SetUpReview_zh_CN.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ext/corilead/abcprod/ActionLableResourceRB.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ext/corilead/abcprod/ActionLableResourceRB_zh_CN.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ext/corilead/workPackage/DocUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ext/corilead/workPackage/SubmitUtil1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ext/corilead/workPackage/SubmitUtil1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ext/corilead/workPackage/TrawUtil.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/netmarkets/jsp/test/createProduction_Single.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/wtCustom/wt/lifecycle/StateRB.rbInfo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/wtCustom/wt/lifecycle/StateRB_zh_CN.rbInfo" charset="UTF-8" />
   </component>
 </project>

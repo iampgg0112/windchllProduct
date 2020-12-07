@@ -774,3 +774,11 @@ HHFF4.order=10004
 HHFF5.value=Standardize_Countersignatures
 HHFF5.shortDescription=It is the Standardize_Countersignatures
 HHFF5.order=10005
+
+HHFF6.value=proofreader
+HHFF6.shortDescription=It is the proofreader
+HHFF6.order=10006
+
+HHFF7.value=Review
+HHFF7.shortDescription=It is the Review
+HHFF7.order=10007

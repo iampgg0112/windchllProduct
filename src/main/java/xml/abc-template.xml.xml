@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE template SYSTEM "template.dtd">
+<template type="PDF">
+    <name>PDF-001</name>
+    <description>模版1</description>
+    <primary>图片</primary>
+    <signconfig>
+        <key>ASSIGNEE</key>
+        <pages>1</pages>
+        <pageset pagesize="A4">
+            <align>LEFT</align>
+            <rotate>90</rotate>
+            <text-position x="350" y="-425" />
+            <image-position x="350" y="-425" width="100" height="38" />
+            <time-position x="450" y="-425" fmt="yyyy-MM-dd" />
+            <font family="黑体" size="12"  color="red"  bold="false" italic="false" />
+            <table col="4" width="50" height="20" />
+        </pageset>
+        <pageset>
+            <align>LEFT</align>
+            <rotate>90</rotate>
+            <text-position x="350" y="-425" />
+            <image-position x="350" y="-425" width="100" height="38" />
+            <time-position x="450" y="-425" fmt="yyyy-MM-dd" />
+            <font family="黑体" size="12" bold="false" italic="false" />
+            <table col="4" width="50" height="20" />
+        </pageset>
+    </signconfig>
+    <signconfig>
+        <key>AUDITOR</key>
+        <pages>1</pages>
+        <pageset pagesize="A4">
+            <text-position x="350" y="-465" />
+            <image-position x="350" y="-465" width="100" height="30" />
+            <time-position x="450" y="-465" fmt="yyyy-MM-dd" />
+            <font family="黑体" size="12" bold="false" italic="false" />
+            <offset x="0" y="0" />
+        </pageset>
+        <pageset>
+            <text-position x="350" y="-465" />
+            <image-position x="350" y="-465" width="100" height="30" />
+            <time-position x="450" y="-465" fmt="yyyy-MM-dd" />
+            <font family="黑体" size="12" bold="false" italic="false" />
+            <offset x="0" y="0" />
+        </pageset>
+    </signconfig>
+</template>

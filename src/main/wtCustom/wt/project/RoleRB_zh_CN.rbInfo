@@ -773,3 +773,11 @@ HHFF4.order=10004
 HHFF5.value=标准化会签者
 HHFF5.shortDescription=它是标准化会签者
 HHFF5.order=10005
+
+HHFF6.value=校对者
+HHFF6.shortDescription=它是校对者
+HHFF6.order=10006
+
+HHFF7.value=复审者
+HHFF7.shortDescription=它是复审者
+HHFF7.order=10007

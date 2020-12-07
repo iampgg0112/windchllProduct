@@ -19,6 +19,7 @@ import wt.inf.template.ContainerTemplateHelper;
 import wt.inf.template.WTContainerTemplateMaster;
 import wt.org.WTOrganization;
 import wt.org.WTPrincipal;
+import wt.part.WTPart;
 import wt.pdmlink.PDMLinkProduct;
 import wt.pds.StatementSpec;
 import wt.query.QueryException;
@@ -68,7 +69,8 @@ public class productLibrary {
                 WTContainerRef containerRef = null;
                 //容器
                 if (wtorganization != null) {
-                    containerRef = WTContainerHelper.service.getOrgContainerRef(wtorganization);               						pdmlinkProduct.setContainerReference(containerRef);
+                    containerRef = WTContainerHelper.service.getOrgContainerRef(wtorganization);
+                    pdmlinkProduct.setContainerReference(containerRef);
                     pdmlinkProduct.setOrganization(wtorganization);
                 }
                 if (strContainerTemplate != null && strContainerTemplate.trim().length() > 0) {
@@ -82,7 +84,8 @@ public class productLibrary {
                     QueryResult qr = WTContainerHelper.service.lookup(lookupspec);
                     WTContainerTemplateMaster wtcontainertemplatemaster = (WTContainerTemplateMaster) qr.nextElement();
                     System.out.println(" 模 版 类 型 ：    "+wtcontainertemplatemaster.getName()+"   "+wtcontainertemplatemaster.getContainerClassName());
-                    WTContainerTemplate containerTemplate = ContainerTemplateHelper.service.getContainerTemplateRef																	(wtcontainertemplatemaster).getTemplate();
+                    WTContainerTemplate containerTemplate = ContainerTemplateHelper.service.getContainerTemplateRef
+                            (wtcontainertemplatemaster).getTemplate();
                     System.out.println("模版：    "+containerTemplate.getName()+ "   "+ containerTemplate.getContainerClassName());
                     pdmlinkProduct.setContainerTemplate(containerTemplate);
                 }
@@ -96,6 +99,7 @@ public class productLibrary {
         }
         return pdmlinkProduct;
     }
+
 
 
     /**

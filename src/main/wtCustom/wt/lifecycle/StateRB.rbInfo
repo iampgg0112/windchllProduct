@@ -394,6 +394,21 @@ HHFF6.shortDescription=105 state
 HHFF7.value=106
 HHFF7.shortDescription=106 state
 
+HHFF8.value=107
+HHFF8.shortDescription=107 state
+
+HHFF9.value=108
+HHFF9.shortDescription=108 state
+
+HHFF10.value=109
+HHFF10.shortDescription=109 state
+
+HHFF11.value=110
+HHFF11.shortDescription=110 state
+
+HHFF12.value=111
+HHFF12.shortDescription=111 state
+
 SUBNITFORREVIEW.value=Submit for review
 SUBNITFORREVIEW.shortDescription=Submit for review state
 
@@ -402,3 +417,21 @@ UNDERREVIEW.shortDescription=Under review state
 
 RESUBMIT.value=Re Submit
 RESUBMIT.shortDescription=Re Submit state
+
+DEFROST.value=Defrost
+DEFROST.shortDescription=Defrost state
+
+FREEZE.value=Freeze
+FREEZE.shortDescription=Freeze state
+
+FREEZED.value=Freezed
+FREEZED.shortDescription=Freezed state
+
+XIUGAI.value=Xiugai
+XIUGAI.shortDescription=Xiugai state
+
+XIUGAIING.value=Xiugaiing
+XIUGAIING.shortDescription=Xiugaiing state
+
+BIANXIE.value=Bianxie
+BIANXIE.shortDescription=Bianxie state
